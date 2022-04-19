@@ -20,7 +20,7 @@ function scrollFunction() {
 }
 
 // Navbar on mobile
-let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
+let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle), .btn-solid-sm:not(.dropdown-toggle)");
 
 for (let i = 0; i < elements.length; i++) {
 	elements[i].addEventListener("click", () => {
